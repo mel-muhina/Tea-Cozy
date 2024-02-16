@@ -1,0 +1,73 @@
+* {
+    font-family: Helvetica;
+  }
+  body {
+    border: 3px solid red;
+    padding: 10px;
+    margin: 50px;
+    background-size: cover;
+    background-color: white;
+  }
+  
+  h1, .title{
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("../pattern.jpeg");
+    background-size: cover;
+    padding: auto;
+  }
+  
+  h2 {
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+ 
+    }
+
+    h2.one {
+      background-color: mediumspringgreen;
+    }
+
+    h2.two {
+      background-color: lightcoral;
+    }
+    h2.three {
+      background-color: skyblue;
+    }
+
+
+    h3 {
+      color:black;
+      font-size: 18px;
+      font-weight: bold;
+      }
+
+  .link{
+    font-weight: bold;
+    color: blue;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    width: auto;
+  }
+  p, 
+  li {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    width: auto;
+  }
+  .Footer{
+    font-size: 20px;
+    margin: 100px auto;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
