@@ -37,7 +37,7 @@ h2, h4 {
     }
 
 .hero {
-    background-image: url("../img-mission-background.jpg");
+    background-image: url("img-mission-background.jpg");
     background-size: cover;
     height: 700px;
     margin: 0 25px;
@@ -150,7 +150,7 @@ figcaption {
 }
 
 .locations {
-    background-image: url("../img-locations-background.jpg");
+    background-image: url("img-locations-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
