@@ -1,73 +1,213 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
 * {
-    font-family: Helvetica;
-  }
-  body {
-    border: 3px solid red;
+    color:seashell;
+    font-family: Helvetica, sans-serif;
+ }
+
+.logo {
+    height: 50px;
     padding: 10px;
-    margin: 50px;
-    background-size: cover;
-    background-color: white;
-  }
-  
-  h1, .title{
-    color: khaki;
-    font-size: 100px;
-    font-weight: bold;
+}
+
+
+h4 {
+    font-size: 22px;
     text-align: center;
-    background-image: url("../pattern.jpeg");
+}
+
+h2, h4 {
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px;
+    margin: 0px;
+    flex-direction: row;
+    width: 210vh;
+    opacity: 0.8;
+    
+} 
+
+.second {
+    padding-top: 50px;
+    
+    }
+
+.hero {
+    background-image: url("../img-mission-background.jpg");
     background-size: cover;
-    padding: auto;
-  }
-  
-  h2 {
-    color:white;
-    font-size: 32px;
-    font-weight: bold;
- 
-    }
+    height: 700px;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-direction: column; /* Stack items vertically */
+    
 
-    h2.one {
-      background-color: mediumspringgreen;
-    }
-
-    h2.two {
-      background-color: lightcoral;
-    }
-    h2.three {
-      background-color: skyblue;
-    }
+}
 
 
-    h3 {
-      color:black;
-      font-size: 18px;
-      font-weight: bold;
-      }
 
-  .link{
-    font-weight: bold;
-    color: blue;
-    font-size: 18px;
-    padding: 0px;
-    margin: 0px;
-    display: inline;
-    width: auto;
-  }
-  p, 
-  li {
-    font-size: 18px;
-    padding: 0px;
-    margin: 0px;
-    display: inline;
-    width: auto;
-  }
-  .Footer{
-    font-size: 20px;
-    margin: 100px auto;
-  }
-  
-  
-  a {
+header { /* This is working great, don't touch */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.nav {
+    text-align: right; 
+      
+}
+
+.nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+   display: inline;
+   
+   }
+
+   .nav a {
+    color: ##1a19ff;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 25px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #FFF5EE;
   }
+
+  .nav a:hover {
+    background-color: #214bff;
+    border-bottom: 2px solid #6495ed;
+   }
+
+.nav a:active {
+    background-color: #6495ed;
+}
+
+li {
+margin:0px;
+list-style: none;
+text-align: center;
+display: inline-block;
+
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+
+p {
+    display: inline;
+    text-align: center;
+}
+
+figcaption {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Center the caption text */
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+ 
+}
+
+.thumb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+
+.thumb figure {
+    flex: 0 0 auto;
+    width: 300px;
+    margin: 0px;
+    padding: 15px;
+    
+}
+
+.thumb img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.locations {
+    background-image: url("../img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    margin: 40px auto auto auto;;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-direction: column; /* Stack items vertically */
+     
+    }
+
+    .locationh2 {
+        background-color: transparent;
+
+    }
+
+.locations .locate {
+   
+       display: flex;
+        width: 80%;
+        margin: 50px;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px; 
+        max-width: 1050px;
+        margin: 15px auto auto auto;
+        display: flex;
+        justify-content: space-between;
+  
+
+ 
+        
+
+}
+
+.locate {
+   *//* margin: 200px; */height: 300px;
+        padding: 20px;
+        margin-bottom: auto;
+        flex-basis: 30%;
+        box-sizing: border-box;
+        background-color: black;
+        text-align:center;
+        opacity: 0.8;
+}
+
+.footer {
+    text-align: center;
+    font-size: 22px;
+    margin-left: 10px;
+  
+}
+.bottom {
+    text-align: center;
+    font-size: 22px;
+}
